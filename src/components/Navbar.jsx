@@ -19,7 +19,7 @@ const Navbar = () => {
       <div onClick={()=>setNav(!nav)} className=' cursor-pointer pr-4 z-10 text-purple-300 md:hidden '>
        {nav ?  <FaTimes size={30}/> :  <FaBars size={30}/>}
       </div>
-      {nav && <ul className='flex flex-col justify-center items-center absolute top-20 left-0 w-full mx-auto h-screen bg-gradient-to-b from-black to-purple-950 md:hidden'>
+      {nav && <ul className='flex flex-col justify-start items-center absolute top-20 left-0 w-full mx-auto h-screen bg-gradient-to-b from-black to-purple-950 md:hidden'>
       <div>
     
      </div>
