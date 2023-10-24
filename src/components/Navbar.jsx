@@ -24,7 +24,7 @@ const Navbar = () => {
     
      </div>
       {links.map(({ id, link })=> (
-          <li key={id} className='px-4 py-6 cursor-pointer capitalize text-2xl font-extrabold text-purple-200 hover:text-purple-400 hover:scale-105  duration-200'>{link.split()}</li>
+          <li key={id} className='px-4 py-6 cursor-pointer capitalize text-2xl font-extrabold text-purple-200 hover:text-purple-400 hover:scale-105  duration-200'>{link}</li>
         ))}
       </ul> }
       
