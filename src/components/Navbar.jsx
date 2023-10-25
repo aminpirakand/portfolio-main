@@ -5,7 +5,7 @@ const Navbar = () => {
   const [nav,setNav] = useState(false)
   
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4  bg-black fixed'>
+    <div className='flex justify-between items-center w-full h-20 px-4 z-10 bg-black fixed'>
      <div className='text-purple-100 hover:text-purple-600 cursor-pointer duration-300 '>
       <h1 className='text-5xl font-signature ml-2 '>Amin</h1>
      </div>
