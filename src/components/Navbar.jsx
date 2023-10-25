@@ -6,12 +6,12 @@ const Navbar = () => {
   
   return (
     <div className='flex justify-between items-center w-full h-20 px-4  bg-black fixed'>
-     <div className='text-purple-100 hover:text-purple-600 cursor-pointer duration-300'>
+     <div className='text-purple-100 hover:text-purple-600 cursor-pointer duration-300 '>
       <h1 className='text-5xl font-signature ml-2 '>Amin</h1>
      </div>
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex '>
         {links.map(({ id, link })=> (
-          <li key={id} className='px-4 mx-2 cursor-pointer capitalize font-extrabold text-purple-300 hover:text-purple-600 hover:scale-105 duration-300'>
+          <li key={id} className='px-4 mx-2 cursor-pointer uppercase  font-bold text-purple-200 hover:text-purple-400 duration-700 '>
            {link}
           </li>
         ))}

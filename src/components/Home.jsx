@@ -17,7 +17,7 @@ const Home = () => {
          hover:to-purple-800
         
           '>portfolio 
-          <span className='group-hover:rotate-90 duration-300'>
+          <span className='group-hover:rotate-90 duration-700 '>
           <MdOutlineKeyboardArrowRight size={25} className='ml-1'/> 
           </span>
           </button>
