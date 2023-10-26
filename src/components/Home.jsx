@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div name="home" className='w-full h-screen bg-gradient-to-b from-black  via-black to-purple-950'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-      <div className='flex flex-col justify-center h-full sm:mt-0'>
+      <div className='flex flex-col justify-center mt-10 h-full sm:mt-0'>
         <h2 className='text-4xl sm:text-5xl md:text-7xl font-bold text-white '>i'm a <span className='text-purple-800'>front-end</span> developer</h2>
         <p className='text-gray-400 py-4 max-w-md' >
         "Hello, I'm a <b className=' text-purple-200 '>front-end developer </b> with 2 years of experience. I specialize in HTML, CSS, and JavaScript to create interactive and user-friendly web interfaces. Collaborating with designers and back-end developers, I build responsive websites and deliver seamless user experiences. I enjoy bringing ideas to life. It's nice to meet you!"
