@@ -1,7 +1,7 @@
 import React from 'react'
 import profile from '../assets/portfolio/profile1.jpg'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
-
+import {Link} from 'react-scroll'
 const Home = () => {
   return (
     <div name="home" className='w-full h-screen bg-gradient-to-b from-black  via-black to-purple-950'>
@@ -12,7 +12,8 @@ const Home = () => {
         "Hello, I'm a <b className=' text-purple-200 '>front-end developer </b> with 2 years of experience. I specialize in HTML, CSS, and JavaScript to create interactive and user-friendly web interfaces. Collaborating with designers and back-end developers, I build responsive websites and deliver seamless user experiences. I enjoy bringing ideas to life. It's nice to meet you!"
         </p>
         <div>
-          <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r sm:from-black sm:to-purple-950 cursor-pointer capitalize font-bold border-2
+          
+          <Link to='portfolio' smooth duration={700} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r sm:from-black sm:to-purple-950 cursor-pointer capitalize font-bold border-2
           hover:bg-gradient-to-r hover:from-black
          hover:to-purple-800
         
@@ -20,7 +21,8 @@ const Home = () => {
           <span className='group-hover:rotate-90 duration-700 '>
           <MdOutlineKeyboardArrowRight size={25} className='ml-1'/> 
           </span>
-          </button>
+          </Link>
+          
         </div>
       </div>
       <div className=''>
