@@ -10,10 +10,10 @@ const About = () => {
           duration-100  '>About</p>
         </div>
         <p className='text-xl mt-2 '>
-        "Hello, I'm a <b className=' text-purple-200'>front-end developer </b> with 2 years of experience. I specialize in HTML, CSS, and JavaScript to create interactive and user-friendly web interfaces. Collaborating with designers and back-end developers, I build responsive websites and deliver seamless user experiences. I enjoy bringing ideas to life. It's nice to meet you!"
-        </p>
-        <p className='text-xl'> "Hello, I'm a <b className=' text-purple-200  '>front-end developer </b> with 2 years of experience. I specialize in HTML, CSS, and JavaScript to create interactive and user-friendly web interfaces. Collaborating with designers and back-end developers, I build responsive websites and deliver seamless user experiences. I enjoy bringing ideas to life. It's nice to meet you!"</p>
-      </div>
+        I'm Amin Pirakand a 28-year-old freelancer frontend developer from Bojnourd. With a Bachelor's degree in Electronic Engineering, specializes in web development, focusing on creating visually appealing and user-friendly interfaces. i skilled in HTML, CSS, and JavaScript, with experience in responsive design. As a freelancer, i enjoys working on diverse projects and delivering high-quality solutions. i values effective communication, teamwork, and maintaining a healthy work-life balance. i passionate about staying up-to-date with the latest industry trends and continuously expanding his knowledge and skill set.
+       </p>
+       
+       </div>
     </div>
   )
 }
